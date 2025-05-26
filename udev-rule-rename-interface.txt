@@ -1,0 +1,2 @@
+root@geopkg-debian:~# cat /etc/udev/rules.d/59-persistent-net.rules
+SUBSYSTEM=="net", ACTION=="add", KERNELS=="0000:01:00.0", NAME:="eth-lan"
